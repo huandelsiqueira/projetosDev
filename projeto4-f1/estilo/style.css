@@ -54,10 +54,10 @@ header > nav a {
 header > nav > a:hover{
     transition-duration: 0.5s;
     border: none;
-    margin-right: 1vh;
     background-color: #bd8d0a;
     border-radius: 20vh;
-    padding: 1.7vh;
+    padding: 1vh;
+    font-size: 2.5vh;
     text-decoration: none;
     color: #ffffff;
 }
