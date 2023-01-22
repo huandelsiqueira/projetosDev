@@ -98,8 +98,8 @@ section.texto {
 section.texto > p {
     display: block;
     text-align: justify;
-    max-width: 400px;
-    font-size: 4vh;
+    max-width: 280px;
+    font-size: 3.5vh;
     margin-right: 0px;
 
     
