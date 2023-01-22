@@ -88,6 +88,8 @@ footer > p > a:hover {
 }
 
 section.texto {
+    display: block;
+    width: 96.37%;
     padding-top: 5vh;
     padding-bottom: 5vh;
     padding-left: 8vh;
@@ -96,8 +98,8 @@ section.texto {
 section.texto > p {
     display: block;
     text-align: justify;
-    width: 400px;
-    font-size: 5vh;
+    max-width: 400px;
+    font-size: 4vh;
     margin-right: 0px;
 
     
