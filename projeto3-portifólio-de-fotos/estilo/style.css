@@ -112,6 +112,7 @@ section.texto > p#aside {
 
 section#img01 {
     background-image: url(../imagens/img01.jpg);
+    background-position: center center;
 }
 
 section#img02 {
