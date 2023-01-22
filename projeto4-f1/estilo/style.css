@@ -73,7 +73,12 @@ section.inicial {
     height: 82vh;
 }
 
+aside {
+    display: inline-block;
+}
+
 aside.texto {
+    display: block;
     float: left;
     width: 80vh;
     padding-left: 27vh;
@@ -85,6 +90,7 @@ aside.texto {
 }
 
 aside.foto {
+    display: block;
     position: relative;
     float: right;
     padding-right: 25vh;
@@ -98,4 +104,21 @@ section.texto2 {
     background-attachment: fixed;
 }
 
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0e0e0e;
+    color: white;
+    text-align: center;
+    font-family: var(--Inter)
+}
 
+footer > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
