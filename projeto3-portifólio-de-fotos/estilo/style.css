@@ -132,11 +132,12 @@ section#img04 {
 
 section#img05 {
     background-image: url(../imagens/img05.jpg);
-    background-position: center left;
+    background-position: center center;
 }
 
 section#img06 {
     background-image: url(../imagens/img06.jpg);
+    background-position: center center;
 }
 
 section#foto01 {
@@ -156,12 +157,15 @@ section#foto03 {
 
 section#foto04 {
     background-image: url(../imagens/foto04.jpg);
+    background-position: center center;
 }
 
 section#foto05 {
     background-image: url(../imagens/foto06.jpg);
+    background-position: center center;
 }
 
 section#foto06 {
     background-image: url(../imagens/foto005.jpg);
+    background-position: top center;
 }
