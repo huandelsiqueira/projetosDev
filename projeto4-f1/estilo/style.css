@@ -45,7 +45,7 @@ header > nav {
 
 header > nav a {
     margin-right: 1vh;
-    padding: 2vh;
+    padding: 0.5vh;
     text-decoration: none;
     color: #bd8d0a;
 }
