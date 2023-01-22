@@ -11,7 +11,6 @@
     --cor01: #2e0e44;
     --cor02: #B355DB;
     --cor03: #EC206D;
-    --cor04:    ;
     --cor05: #E0BF35;
 }
 
@@ -53,7 +52,7 @@ section.imagem {
 }
 
 section.normal {
-    width: 100%;
+    width: 96.37%;
     font-family:'Oswald', sans-serif;
     font-weight: normal;
     padding-bottom: 60vh;
