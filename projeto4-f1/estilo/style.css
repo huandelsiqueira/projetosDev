@@ -8,7 +8,8 @@
 :root {
     --cor01: #bd8d0a;
     --Anton: 'Anton', sans-serif;
-    --Bebas-Neue: 'Bebas Neue', cursive;
+    --Bebas-Neue: 'Bebas Neue', Arial, Helvetica;
+    --Inter: 'Inter', sans-serif;
 }
 
 body {
@@ -61,3 +62,40 @@ header > nav > a:hover{
     text-decoration: none;
     color: #ffffff;
 }
+
+section.inicial {
+    background-image: url(../imagens/Sem-Título-1.png);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #858585;
+    width: auto;
+    height: 82vh;
+}
+
+aside.texto {
+    float: left;
+    width: 80vh;
+    padding-left: 27vh;
+    padding-top: 20vh;
+    font-size: 4vh;
+    text-align: justify;
+    font-family: var(--Inter);
+    font-weight: 900;
+}
+
+aside.foto {
+    position: relative;
+    float: right;
+    padding-right: 25vh;
+    padding-top: 0.5vh;
+}
+
+section.texto2 {
+    height: 82vh;
+    background-image: url(../imagens/bgtexto2.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
