@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #bd8d0a;
+    --Anton: 'Anton', sans-serif;
+    --Bebas-Neue: 'Bebas Neue', Arial, Helvetica;
+    --Inter: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: #0e0e0e;
+    padding-top: 10vh;
+    padding-bottom: 3.5vh;
+    text-align: center;
+    min-height: 27vh;
+}
+
+header > h1 {
+    color: #bd8d0a;
+    font-family: var(--Bebas-Neue);
+    font-variant: inherit;
+    font-size: 12vh;
+}
+
+header > p {
+    color: #ffffff;
+    font-family: var(--Bebas-Neue);
+    font-size: 3.5vh;
+}
+
+header > nav {
+    margin-top: 15vh;
+    padding-left: 1.5vh;
+    text-align: left;
+    font-family: var(--Bebas-Neue);
+    font-size: 2.5vh;
+}
+
+header > nav a {
+    margin-right: 1vh;
+    padding: 0.1vh;
+    text-decoration: none;
+    color: #bd8d0a;
+}
+
+header > nav > a:hover{
+    transition-duration: 0.5s;
+    border: none;
+    background-color: #bd8d0a;
+    border-radius: 20vh;
+    padding: 1vh;
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section.abertura {
+    background-color: rgb(78, 78, 78);
+    background-image: url(imagens/bg1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+}
+
+section.abertura > h1 {
+    font-size: 10vh;
+    font-family: var(--Bebas-Neue);
+    color: #bd8d0a;
+    padding-left: 10vh;
+    padding-top: 14vh;
+}
+
+section.abertura > p {
+    font-size: 4.5vh;
+    font-family: var(--Bebas-Neue);
+    color: #0e0e0e;
+    padding-left: 10vh;
+}
+
+section.farina {
+    background-image: url(imagens/bgfarina.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 13px  rgba(0, 0, 0, 0.178);
+    width: 100%;
+    height: 45vh;
+}
+
+section.farina > div> h1 {
+    font-size: 10vh;
+    font-family: var(--Bebas-Neue);
+    color: #ffffff;
+    padding-left: 10vh;
+    padding-top: 10vh;
+}
+
+section.farina > div > p {
+    font-size: 4.5vh;
+    font-family: var(--Bebas-Neue);
+    color: #0e0e0e;
+    padding-left: 10vh;
+}
+
+section.farina > div> img {
+    position: absolute;
+    float: left;
+    width: 16.45%;
+    height: 45vh;
+}
+
+div#farina {
+    float: right;
+    padding-right: 110vh;
+}
+
+section.hawthorn {
+    background-image: url(imagens/bghawthorn.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 13px  rgba(0, 0, 0, 0.178);
+    width: 100%;
+    height: 45vh;
+}
+
+section.hawthorn > div> h1 {
+    font-size: 10vh;
+    font-family: var(--Bebas-Neue);
+    color: #ffffff;
+    padding-left: 10vh;
+    padding-top: 10vh;
+}
+
+section.hawthorn > div > p {
+    font-size: 4.5vh;
+    font-family: var(--Bebas-Neue);
+    color: #0e0e0e;
+    padding-left: 10vh;
+}
+
+section.hawthorn > div > picture > img {
+    position: absolute;
+    float: left;
+    width: 16.45%;
+}
+
+div#hawthorn {
+    float: right;
+    padding-right: 110vh;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #0e0e0e;
+    color: white;
+    text-align: center;
+    font-family: var(--Inter)
+}
+
+footer > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
