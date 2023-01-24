@@ -153,9 +153,9 @@ section.hawthorn > div > p {
 }
 
 section.hawthorn > div > picture > img {
-    position: absolute;
     float: left;
     width: 16.45%;
+    min-height: auto;
 }
 
 div#hawthorn {
