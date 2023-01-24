@@ -152,7 +152,7 @@ section.hawthorn > div > p {
     padding-left: 10vh;
 }
 
-section.hawthorn > div > picture > img {
+section.hawthorn > div > picture > img {    
     float: left;
     width: 16.45%;
     min-height: auto;
